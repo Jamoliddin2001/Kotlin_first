@@ -4,10 +4,16 @@ fun main(){
     for(i in x){
         print(" "+i)
     }*/
-    Tree_tochki(15,29,57)
+    //println("Jamoliddin".replace("i","*",false))
+    //println("Jamoliddin".split("a"))
+//    var s="1345.15"
+//    var u=s.toDouble()
+//    println(u)
 
-    var x1:Int?;
-    x1=null
+    Tree_tochki(15,29,57)
+    var x1:Int?=null;
+    //x1= readLine()?.toInt()
+    println("x1="+x1)
     var x2:Int;
     My_fun(10,20)
 
@@ -21,7 +27,7 @@ fun Tree_tochki(x1:Int,x2:Int,x3:Int):Int{
     println("x1, x3 = "+Math.abs(x1-x3))
     println("x2, x3 = "+Math.abs(x2-x3))
     var sum=Math.abs(x1-x2)+Math.abs(x2-x3)+Math.abs(x1-x3)
-    println("sum = "+sum)
+    println("Сумма = "+sum)
     return 1
 }
 
