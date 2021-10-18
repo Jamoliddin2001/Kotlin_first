@@ -1,5 +1,7 @@
 fun main(){
 
+
+    //By Jamoliddin
     /*val x = arrayOf(1,2,3,4,5)
     for(i in x){
         print(" "+i)
