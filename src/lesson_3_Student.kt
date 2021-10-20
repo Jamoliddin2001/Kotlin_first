@@ -27,6 +27,11 @@ var student1=Student()
 
 fun main(){
 
+
+    val square:(Int)->Int={a->a*a}
+    println(square(5))
+    val square1:(Int)->Int={it*it}
+    println(square1(5))
     Student.St1.J1()
     Student.St2.J2()
 
